@@ -15,7 +15,6 @@ document.getElementById("defaultOpen").click();
 
 
 
-
 function openGallery(evt, cityName) {
   var i, gallerytabcontent, gallerytablinks;
   gallerytabcontent = document.getElementsByClassName("gallerytabcontent");
@@ -30,3 +29,20 @@ function openGallery(evt, cityName) {
   evt.currentTarget.className += " gallerytabactive";
 }
 document.getElementById("defaultGalleryOpen").click();
+
+
+
+function openGalleryER(evt, cityName) {
+  var i, gallerytabcontentER, gallerytablinksER;
+  gallerytabcontentER = document.getElementsByClassName("gallerytabcontentER");
+  for (i = 0; i < gallerytabcontentER.length; i++) {
+    gallerytabcontentER[i].style.display = "none";
+  }
+  gallerytablinksER = document.getElementsByClassName("gallerytablinksER");
+  for (i = 0; i < gallerytablinksER.length; i++) {
+    gallerytablinksER[i].className = gallerytablinksER[i].className.replace(" gallerytabactiveER", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " gallerytabactiveER";
+}
+document.getElementById("defaultGalleryOpenER").click();
