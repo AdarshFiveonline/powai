@@ -1,33 +1,12 @@
-$(document).ready(function(){
-  $('.floorplangallery > div.floorplanbg').each(function(){
-    $(this).wrapAll('<a href="" data-fancybox="floorplangallery"></a>');
-  });
-  $('.floorplangallery a').each(function(){
-    var link = $(this).children('.floorplanbg').css('background-image');
-    console.log(link);
-    link = link.replace(/(url\(|\)|")/g,'');
-    $(this).attr('href', link);
-  });
-  $("[data-fancybox]").fancybox({
-    loop: true,
-    buttons: [
-          "zoom",
-          "share",
-          "slideShow",
-          "fullScreen",
-          // "download",
-          "thumbs",
-          "close"
-      ]   
-  });
-});
+
+// Site Gallery Script
 
 $(document).ready(function(){
-  $('.unitplangallery > div.unitplanbg').each(function(){
-    $(this).wrapAll('<a href="" data-fancybox="unitplangallery"></a>');
+  $('.vexteriorsgallery > div.vexteriorsbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="vexteriorsgallery"></a>');
   });
-  $('.unitplangallery a').each(function(){
-    var link = $(this).children('.unitplanbg').css('background-image');
+  $('.vexteriorsgallery a').each(function(){
+    var link = $(this).children('.vexteriorsbg').css('background-image');
     console.log(link);
     link = link.replace(/(url\(|\)|")/g,'');
     $(this).attr('href', link);
@@ -47,13 +26,12 @@ $(document).ready(function(){
 });
 
 
-
 $(document).ready(function(){
-  $('.exteriorsgallery > div.exteriorsbg').each(function(){
-    $(this).wrapAll('<a href="" data-fancybox="exteriorsgallery"></a>');
+  $('.vinteriorsgallery > div.vinteriorsbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="vinteriorsgallery"></a>');
   });
-  $('.exteriorsgallery a').each(function(){
-    var link = $(this).children('.exteriorsbg').css('background-image');
+  $('.vinteriorsgallery a').each(function(){
+    var link = $(this).children('.vinteriorsbg').css('background-image');
     console.log(link);
     link = link.replace(/(url\(|\)|")/g,'');
     $(this).attr('href', link);
@@ -72,12 +50,13 @@ $(document).ready(function(){
   });
 });
 
+
 $(document).ready(function(){
-  $('.interiorsgallery > div.interiorsbg').each(function(){
-    $(this).wrapAll('<a href="" data-fancybox="interiorsgallery"></a>');
+  $('.vamenitiesgallery > div.vamenitiesbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="vamenitiesgallery"></a>');
   });
-  $('.interiorsgallery a').each(function(){
-    var link = $(this).children('.interiorsbg').css('background-image');
+  $('.vamenitiesgallery a').each(function(){
+    var link = $(this).children('.vamenitiesbg').css('background-image');
     console.log(link);
     link = link.replace(/(url\(|\)|")/g,'');
     $(this).attr('href', link);
@@ -99,11 +78,11 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $('.amenitiesgallery > div.amenitiesbg').each(function(){
-    $(this).wrapAll('<a href="" data-fancybox="amenitiesgallery"></a>');
+  $('.vsiteplangallery > div.vsiteplanbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="vsiteplangallery"></a>');
   });
-  $('.amenitiesgallery a').each(function(){
-    var link = $(this).children('.amenitiesbg').css('background-image');
+  $('.vsiteplangallery a').each(function(){
+    var link = $(this).children('.vsiteplanbg').css('background-image');
     console.log(link);
     link = link.replace(/(url\(|\)|")/g,'');
     $(this).attr('href', link);
@@ -122,3 +101,175 @@ $(document).ready(function(){
   });
 });
 
+
+$(document).ready(function(){
+  $('.vfloorplangallery > div.vfloorplanbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="vfloorplangallery"></a>');
+  });
+  $('.vfloorplangallery a').each(function(){
+    var link = $(this).children('.vfloorplanbg').css('background-image');
+    console.log(link);
+    link = link.replace(/(url\(|\)|")/g,'');
+    $(this).attr('href', link);
+  });
+  $("[data-fancybox]").fancybox({
+    loop: true,
+    buttons: [
+          "zoom",
+          "share",
+          "slideShow",
+          "fullScreen",
+          // "download",
+          "thumbs",
+          "close"
+      ]   
+  });
+});
+
+
+$(document).ready(function(){
+  $('.vunitplangallery > div.vunitplanbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="vunitplangallery"></a>');
+  });
+  $('.vunitplangallery a').each(function(){
+    var link = $(this).children('.vunitplanbg').css('background-image');
+    console.log(link);
+    link = link.replace(/(url\(|\)|")/g,'');
+    $(this).attr('href', link);
+  });
+  $("[data-fancybox]").fancybox({
+    loop: true,
+    buttons: [
+          "zoom",
+          "share",
+          "slideShow",
+          "fullScreen",
+          // "download",
+          "thumbs",
+          "close"
+      ]   
+  });
+});
+
+$(document).ready(function(){
+  $('.erexteriorsgallery > div.erexteriorsbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="erexteriorsgallery"></a>');
+  });
+  $('.erexteriorsgallery a').each(function(){
+    var link = $(this).children('.erexteriorsbg').css('background-image');
+    console.log(link);
+    link = link.replace(/(url\(|\)|")/g,'');
+    $(this).attr('href', link);
+  });
+  $("[data-fancybox]").fancybox({
+    loop: true,
+    buttons: [
+          "zoom",
+          "share",
+          "slideShow",
+          "fullScreen",
+          // "download",
+          "thumbs",
+          "close"
+      ]   
+  });
+});
+
+
+$(document).ready(function(){
+  $('.erinteriorsgallery > div.erinteriorsbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="erinteriorsgallery"></a>');
+  });
+  $('.erinteriorsgallery a').each(function(){
+    var link = $(this).children('.erinteriorsbg').css('background-image');
+    console.log(link);
+    link = link.replace(/(url\(|\)|")/g,'');
+    $(this).attr('href', link);
+  });
+  $("[data-fancybox]").fancybox({
+    loop: true,
+    buttons: [
+          "zoom",
+          "share",
+          "slideShow",
+          "fullScreen",
+          // "download",
+          "thumbs",
+          "close"
+      ]   
+  });
+});
+
+
+$(document).ready(function(){
+  $('.eramenitiesgallery > div.eramenitiesbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="eramenitiesgallery"></a>');
+  });
+  $('.eramenitiesgallery a').each(function(){
+    var link = $(this).children('.eramenitiesbg').css('background-image');
+    console.log(link);
+    link = link.replace(/(url\(|\)|")/g,'');
+    $(this).attr('href', link);
+  });
+  $("[data-fancybox]").fancybox({
+    loop: true,
+    buttons: [
+          "zoom",
+          "share",
+          "slideShow",
+          "fullScreen",
+          // "download",
+          "thumbs",
+          "close"
+      ]   
+  });
+});
+
+$(document).ready(function(){
+  $('.ersiteplangallery > div.ersiteplanbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="ersiteplangallery"></a>');
+  });
+  $('.ersiteplangallery a').each(function(){
+    var link = $(this).children('.ersiteplanbg').css('background-image');
+    console.log(link);
+    link = link.replace(/(url\(|\)|")/g,'');
+    $(this).attr('href', link);
+  });
+  $("[data-fancybox]").fancybox({
+    loop: true,
+    buttons: [
+          "zoom",
+          "share",
+          "slideShow",
+          "fullScreen",
+          // "download",
+          "thumbs",
+          "close"
+      ]   
+  });
+});
+
+
+$(document).ready(function(){
+  $('.erunitplangallery > div.erunitplanbg').each(function(){
+    $(this).wrapAll('<a href="" data-fancybox="erunitplangallery"></a>');
+  });
+  $('.erunitplangallery a').each(function(){
+    var link = $(this).children('.erunitplanbg').css('background-image');
+    console.log(link);
+    link = link.replace(/(url\(|\)|")/g,'');
+    $(this).attr('href', link);
+  });
+  $("[data-fancybox]").fancybox({
+    loop: true,
+    buttons: [
+          "zoom",
+          "share",
+          "slideShow",
+          "fullScreen",
+          // "download",
+          "thumbs",
+          "close"
+      ]   
+  });
+});
