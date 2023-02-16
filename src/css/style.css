@@ -225,6 +225,10 @@ section{width: 100%;display: block;padding: 30px 0px;}
 @media only screen and (max-width: 774px){
 	.vinteriorsgallery a{width: 48.5%;}
 	.vinteriorsgallery a:nth-child(even){margin: 0px 0px 15px 0px;}
+	.reradiscdetails p{text-align: left;}
+	.site-title::after, .contact-inner-details h2::after, .site-title-white::after, .about-descp h4::after{width: 50px;}
+	.site-title, .contact-inner-details h2, .site-title-white{font-size: 35px;}
+	.about-descp h4{font-size: 25px;}
 }
 @media only screen and (max-width: 767px){
 	.floorplangallery a {width: 100%;margin: 0px 0px 10px 0px;}
@@ -247,6 +251,7 @@ section{width: 100%;display: block;padding: 30px 0px;}
 }
 @media only screen and (max-width: 400px){
 	.vexteriorsgallery a, .vinteriorsgallery a, .vamenitiesgallery a, .vfloorplangallery a, .vunitplangallery a, .erexteriorsgallery a, .erinteriorsgallery a, .erunitplangallery a {width: 47.8%;}	
+	.tab button{padding: 8px 25px;white-space: nowrap;}
 }
 @media only screen and (max-width: 365px){
 	.vexteriorsgallery a, .vinteriorsgallery a, .vamenitiesgallery a, .vfloorplangallery a, .vunitplangallery a, .erexteriorsgallery a, .erinteriorsgallery a, .erunitplangallery a {width: 47%;}	
